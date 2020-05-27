@@ -1,0 +1,22 @@
+{
+  "name": "wallet-manager",
+  "version": "1.0.0",
+  "description": "",
+  "author":"kartik",
+  "main": "index.js",
+  "scripts": {
+    "start-js": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run start-js\" \"npm run client\""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.5",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
